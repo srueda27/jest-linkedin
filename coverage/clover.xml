@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682378062988" clover="3.2.0">
-  <project timestamp="1682378062988" name="All files">
-    <metrics statements="138" coveredstatements="138" conditionals="39" coveredconditionals="39" methods="16" coveredmethods="16" elements="193" coveredelements="193" complexity="0" loc="138" ncloc="138" packages="6" files="10" classes="10"/>
+<coverage generated="1682378115168" clover="3.2.0">
+  <project timestamp="1682378115169" name="All files">
+    <metrics statements="138" coveredstatements="125" conditionals="39" coveredconditionals="37" methods="16" coveredmethods="14" elements="193" coveredelements="176" complexity="0" loc="138" ncloc="138" packages="6" files="10" classes="10"/>
     <package name="jest-linkedin">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="D:\Desarrollo\estudio\jest-linkedin\index.js">
@@ -23,9 +23,9 @@
       </file>
     </package>
     <package name="jest-linkedin.controllers">
-      <metrics statements="67" coveredstatements="67" conditionals="33" coveredconditionals="33" methods="7" coveredmethods="7"/>
+      <metrics statements="67" coveredstatements="60" conditionals="33" coveredconditionals="31" methods="7" coveredmethods="7"/>
       <file name="RecipesController.js" path="D:\Desarrollo\estudio\jest-linkedin\controllers\RecipesController.js">
-        <metrics statements="48" coveredstatements="48" conditionals="25" coveredconditionals="25" methods="5" coveredmethods="5"/>
+        <metrics statements="48" coveredstatements="41" conditionals="25" coveredconditionals="23" methods="5" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -40,17 +40,17 @@
         <line num="39" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="40" count="1" type="stmt"/>
         <line num="47" count="3" type="cond" truecount="5" falsecount="0"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
-        <line num="63" count="1" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
         <line num="77" count="3" type="stmt"/>
         <line num="78" count="3" type="stmt"/>
         <line num="81" count="3" type="stmt"/>
-        <line num="82" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="83" count="1" type="stmt"/>
-        <line num="89" count="1" type="stmt"/>
+        <line num="82" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
         <line num="94" count="1" type="stmt"/>
         <line num="103" count="6" type="stmt"/>
         <line num="104" count="6" type="stmt"/>
@@ -62,17 +62,17 @@
         <line num="122" count="1" type="stmt"/>
         <line num="128" count="3" type="stmt"/>
         <line num="131" count="3" type="stmt"/>
-        <line num="132" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="133" count="1" type="stmt"/>
-        <line num="139" count="2" type="stmt"/>
-        <line num="141" count="2" type="stmt"/>
-        <line num="142" count="1" type="stmt"/>
-        <line num="147" count="1" type="stmt"/>
+        <line num="132" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
         <line num="156" count="2" type="stmt"/>
         <line num="158" count="2" type="stmt"/>
         <line num="161" count="2" type="stmt"/>
-        <line num="163" count="1" type="stmt"/>
-        <line num="168" count="1" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="168" count="2" type="stmt"/>
         <line num="176" count="1" type="stmt"/>
       </file>
       <file name="UsersController.js" path="D:\Desarrollo\estudio\jest-linkedin\controllers\UsersController.js">
@@ -128,23 +128,23 @@
       </file>
     </package>
     <package name="jest-linkedin.database.services">
-      <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
       <file name="recipes.js" path="D:\Desarrollo\estudio\jest-linkedin\database\services\recipes.js">
-        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <metrics statements="15" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="16" count="5" type="stmt"/>
         <line num="17" count="5" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
       </file>
       <file name="users.js" path="D:\Desarrollo\estudio\jest-linkedin\database\services\users.js">

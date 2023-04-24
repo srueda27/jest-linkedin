@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">60% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>9/15</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">60% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>3/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">60% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>9/15</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -103,8 +103,8 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -115,20 +115,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -137,9 +137,9 @@
 &nbsp;
 const RecipesClass = {
   //  ------save data------
-  saveRecipes: async (recipesDetail) =&gt; {
-    const response = await Recipes.create(recipesDetail);
-    return response;
+  saveRecipes: <span class="fstat-no" title="function not covered" >as</span>ync (recipesDetail) =&gt; {
+    const response = <span class="cstat-no" title="statement not covered" >await Recipes.create(recipesDetail);</span>
+<span class="cstat-no" title="statement not covered" >    return response;</span>
   },
 &nbsp;
   allRecipes: async () =&gt; {
@@ -150,20 +150,20 @@ const RecipesClass = {
   fetchById: async (id) =&gt; {
     try {
       const response = await Recipes.findById(id);
-      return response;
+<span class="cstat-no" title="statement not covered" >      return response;</span>
     } catch (err) {
       return null;
     }
   },
 &nbsp;
-  fetchByIdAndUpdate: async (id, recipesDetail) =&gt; {
-    const response = await Recipes.findByIdAndUpdate(id, { $set: recipesDetail }, { new: true });
-    return response;
+  fetchByIdAndUpdate: <span class="fstat-no" title="function not covered" >as</span>ync (id, recipesDetail) =&gt; {
+    const response = <span class="cstat-no" title="statement not covered" >await Recipes.findByIdAndUpdate(id, { $set: recipesDetail }, { new: true });</span>
+<span class="cstat-no" title="statement not covered" >    return response;</span>
   },
 &nbsp;
   fetchByIdAndDelete: async (id) =&gt; {
     const response = await Recipes.findByIdAndDelete(id);
-    return response;
+<span class="cstat-no" title="statement not covered" >    return response;</span>
   },
 };
 &nbsp;
@@ -175,7 +175,7 @@ module.exports = RecipesClass;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-04-24T23:14:22.944Z
+                at 2023-04-24T23:15:15.124Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

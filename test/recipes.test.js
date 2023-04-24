@@ -140,7 +140,7 @@ describe('test the recipes API', () => {
       // DATA YOU WANT TO SAVE TO DB
       const recipes = {
         name: "chicken nuggets",
-        // difficulty: 2,
+        difficulty: 2,
         vegetarian: true
       }
       const res = await request(app)
