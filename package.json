@@ -11,7 +11,7 @@
     "seed:rollback": "node database/seed/index --rollback",
     "test": "cross-env MONGODB_URI=mongodb://localhost:27017/recipe_app_test jest --collectCoverage --forceExit --detectOpenHandles"
   },
-  "pre-push":[
+  "pre-push": [
     "lint",
     "test"
   ],
