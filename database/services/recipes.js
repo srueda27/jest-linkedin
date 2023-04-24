@@ -17,6 +17,7 @@ const RecipesClass = {
       const response = await Recipes.findById(id);
       return response;
     } catch (err) {
+      return null;
     }
   },
 
